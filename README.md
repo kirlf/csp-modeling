@@ -5,9 +5,9 @@
 #### Kazan, 2020
 
 ### Summary
-- [Task 1](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task1.md): Read and learn (MATLAB, NumPy) - OFDM frame generator
-- [Task 2](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task2.md): Write and learn (MatLab) - Communication system modeling
-- [Task 3](https://github.com/kirlf/CSP/blob/master/The%20Mathematical%20Modeling%20of%20Devices%20and%20Systems/Task3.md): Write and learn (Python, NumPy) - Poisson process approximation.
+- [Task 1](https://github.com/kirlf/csp-modeling/blob/master/Task1.md): Read and learn (MATLAB, NumPy) - OFDM frame generator
+- [Task 2](https://github.com/kirlf/csp-modeling/blob/master/Task2.md): Write and learn (MatLab) - Communication system modeling
+- [Task 3](https://github.com/kirlf/csp-modeling/blob/master/Task3.md): Write and learn (Python, NumPy) - Poisson process approximation.
 
 ### Preface
 
