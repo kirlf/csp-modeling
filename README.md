@@ -4,15 +4,6 @@
 ### M.Sc. Vladimir Fadeev
 #### Kazan, 2020
 
-### Summary
-- [Task 1](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-1-read-and-learn-matlab-numpy): Read and learn (MATLAB, NumPy) - OFDM frame generator
-- [Task 2](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-2-write-and-learn-matlab): Write and learn (MatLab) - Communication system modeling
-
-### Additional materials
-
-- [Huffman codes (Python 3)](https://gist.github.com/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71)
-- [NumPy sorting algorithms](https://www.slideshare.net/VladimirFadeev4/numpy-sorting-and-dancing-and-memes-a-short-review-for-students)
-
 ### Preface
 
 Hello, everyone!
@@ -28,3 +19,14 @@ Yes, it is your right to consider Simulink as a simpler solution ([*well, nobody
 So, all the words are said, tune in to a serious mood, let's go!
 
 M.Sc. Vladimir Fadeev
+
+### Summary
+- [Task 1](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-1-read-and-learn-matlab-numpy): Read and learn (MATLAB, NumPy) - OFDM frame generator
+- [Task 2](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-2-write-and-learn-matlab): Write and learn (MatLab) - Communication system modeling
+
+### Additional materials
+
+- [Huffman codes (Python 3)](https://gist.github.com/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71)
+- [NumPy sorting algorithms](https://www.slideshare.net/VladimirFadeev4/numpy-sorting-and-dancing-and-memes-a-short-review-for-students)
+
+
