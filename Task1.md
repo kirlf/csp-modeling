@@ -4,8 +4,6 @@
 
 **Form of reports**: PDF file.
 
-## Introduction
-
 The modeling of communication systems is important part of your study and research work. This training task consider OFDM modulation scheme as an example.
 
 ![](https://www.qorvo.com/-/media/images/qorvopublic/blog/2017/80211ax/ofdm-vs-ofdma-trucks_4.jpg?la=en&hash=BF9CF410721AB0FF30BA400B34AEFAEC4F8ABC76)
@@ -14,15 +12,13 @@ The modeling of communication systems is important part of your study and resear
 
 The transmitter part of the OFDM based system can be modeled according to the figure 2.
 
-![](https://habrastorage.org/getpro/habr/post_images/129/5f3/278/1295f327898f65e98bb1499772dc0b87.png)
+<img src="https://habrastorage.org/getpro/habr/post_images/129/5f3/278/1295f327898f65e98bb1499772dc0b87.png" width="800" />
 
 *Fig. 2. Block scheme of the OFDM based transmitter.*
 
 Your task today is to learn how to model **OFDM frame generator**.
-
-## Task
  
-Read the following MATLAB code:
+1. Read the following MATLAB code:
 
 ```octave
 clear all; close all; clc
@@ -78,17 +74,17 @@ frame(pilot_idx) = vec_pilots;
 frame(inf_ind) = info_symbols
 ```
 
-Answer the following questions:
+2. Answer the following questions:
 
-1. What is the purpose of pilots in OFDM frames?
-2. What does `.'` operator mean in MATLAB?
-3. How can be constructed matrix of **zeros**, matrix of **ones** and **identity** matrix?
-4. How can be matrix vectorized in MATLAB?
-5. How can be random integer values generated in MATLAB?
-6. How many bits per symbol in 16-QAM? How many in QPSK?
-7. What kind of modulation scheme has better bit-error ratio performance: QPSK or 16-QAM? BPSK or QPSK? BPSK or 64-QAM? What property determines this?
-8. What is the basic array-like type of the NumPy module?
-9. What are the analogs of `linspace`, `union`, `setdiff`, `reshape` in NumPy?
+- What is the purpose of pilots in OFDM frames?
+- What does `.'` operator mean in MATLAB?
+- How can be constructed matrix of **zeros**, matrix of **ones** and **identity** matrix?
+- How can be matrix vectorized in MATLAB?
+- How can be random integer values generated in MATLAB?
+- How many bits per symbol in 16-QAM? How many in QPSK?
+- What kind of modulation scheme has better bit-error ratio performance: QPSK or 16-QAM? BPSK or QPSK? BPSK or 64-QAM? What property determines this?
+- What is the basic array-like type of the NumPy module?
+- What are the analogs of `linspace`, `union`, `setdiff`, `reshape` in NumPy?
 
 
 # Task 2: Write and learn (MatLab)
@@ -97,13 +93,9 @@ Answer the following questions:
 
 **Form of reports**: PDF file.
 
-## Introduction
-
 Ok, you have already read how a part of the communication system can be modeled during the first practice. It's time to try model whole system by your-self in MatLab! Let us begin from some basics: transmitter, channel, receiver. Use the following block scheme as the reference:
 
 <img src="https://raw.githubusercontent.com/kirlf/CSP/master/MIMO/assets/test-model.png" width="800" />
-
-## Tasks
 
 - **Digital baseband modem**:
  
@@ -132,7 +124,7 @@ Use the OFDM frame from **Task 1** in the same simulation loop.
 Good luck!
 
 
-#### Hints
+# Hints
 
 1. Read the following slides to obtain more theoretical information: 
 https://speakerdeck.com/kirlf/linear-digital-modulations
