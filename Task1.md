@@ -4,7 +4,7 @@
 
 **Form of reports**: PDF file.
 
-# Introduction
+## Introduction
 
 The modeling of communication systems is important part of your study and research work. This training task consider OFDM modulation scheme as an example.
 
@@ -20,7 +20,7 @@ The transmitter part of the OFDM based system can be modeled according to the fi
 
 Your task today is to learn how to model **OFDM frame generator**.
 
-# Task
+## Task
  
 Read the following MATLAB code:
 
@@ -91,6 +91,47 @@ Answer the following questions:
 9. What are the analogs of `linspace`, `union`, `setdiff`, `reshape` in NumPy?
 
 
+# Task 2: Write and learn (MatLab)
+
+**Tutor**: M.Sc. Vladimir Fadeev
+
+**Form of reports**: PDF file.
+
+## Introduction
+
+Ok, you have already read how a part of the communication system can be modeled during the first practice. It's time to try model whole system by your-self in MatLab! Let us begin from some basics: transmitter, channel, receiver. Use the following block scheme as the reference:
+
+<img src="https://raw.githubusercontent.com/kirlf/CSP/master/MIMO/assets/test-model.png" width="800" />
+
+## Tasks
+
+- **Digital baseband modem**:
+ 
+ **QPSK** with **pi/4** phase rotation: apply [pskmod](https://www.mathworks.com/help/comm/ref/pskmod.html) and [pskdemod](https://www.mathworks.com/help/comm/ref/pskdemod.html) MatLab functions.
+
+> Note: However, you should remember that sometimes written by hand MATLAB code can be even faster than built-in functions and objects (see an [example](https://www.mathworks.com/matlabcentral/fileexchange/72860-fast-qpsk-implementation?s_tid=prof_contriblnk))! 
+
+- **Channel**:
+
+Use the **Rayleigh flat fading** with **AWGN** as the channel model. For AWGN use 11 Eb/No points (from 0 to 10 dB).
+
+> See the following tutorial to obtain example of end-to-end communication system modeling (with code!) and required formulas.
+>
+> [Rician flat fading channel modeling](https://nbviewer.jupyter.org/github/kirlf/CSP/blob/master/MIMO/RicianFlatFadingMATLAB.ipynb)
+
+- **Results vizualization**:
+
+For bit error ratio calculation use [biterr](https://www.mathworks.com/help/comm/ref/biterr.html) or write something like this by your-self.
+
+Plot the resulting bit error ratio curves and verify your results by [berfading](https://www.mathworks.com/help/comm/ref/berfading.html) function.  
+
+- **OFDM case**:
+
+Use the OFDM frame from **Task 1** in the same simulation loop. 
+
+Good luck!
+
+
 #### Hints
 
 1. Read the following slides to obtain more theoretical information: 
@@ -101,3 +142,5 @@ https://speakerdeck.com/kirlf/linear-digital-modulations
 3. Use the official NumPy documentation from https://numpy.org/doc/stable/ to obtain more information about this library.
 
 4. You can use also Octave (e.g. https://octave-online.net/) to run MATLAB code.
+
+5. It is OK to ask questions.
