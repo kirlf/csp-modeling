@@ -30,4 +30,9 @@ M.Sc. Vladimir Fadeev
 - [Huffman codes (Python 3)](https://gist.github.com/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71)
 - [NumPy sorting algorithms](https://www.slideshare.net/VladimirFadeev4/numpy-sorting-and-dancing-and-memes-a-short-review-for-students)
 
+### Suggested literature
 
+ 1. Salehi, M., and J. Proakis. "Digital communications." McGraw-Hill Education 31 (2007): 32.
+ 2. Haykin, Simon S. Digital communications. New York: Wiley, 1988.
+ 3. Goldsmith, Andrea. [Wireless communications.](http://wsl.stanford.edu/~andrea/Wireless/Book.pdf) Cambridge university press, 2005.
+ 4. Sklar, Bernard. Digital communications: fundamentals and applications. 2001.
