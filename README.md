@@ -23,6 +23,7 @@ M.Sc. Vladimir Fadeev
 ### Summary
 - [Task 1](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-1-read-and-learn-matlab-numpy): Read and learn (MATLAB, NumPy) - OFDM frame generator
 - [Task 2](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-2-write-and-learn-matlab): Write and learn (MatLab) - Communication system modeling
+- [Task 3](https://github.com/kirlf/csp-modeling/blob/master/python_task.md): Write and learn (Python, NumPy) - Poisson process approximation.
 
 ### Additional materials
 
