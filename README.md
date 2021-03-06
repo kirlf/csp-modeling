@@ -29,6 +29,7 @@ M.Sc. Vladimir Fadeev
 
 - [Huffman codes (Python 3)](https://gist.github.com/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71)
 - [NumPy sorting algorithms](https://www.slideshare.net/VladimirFadeev4/numpy-sorting-and-dancing-and-memes-a-short-review-for-students)
+- [LDPC codes tutorial (Jupyter)](https://nbviewer.jupyter.org/github/kirlf/csp-modeling/blob/master/ldpc.ipynb)
 
 ### Suggested literature
 
