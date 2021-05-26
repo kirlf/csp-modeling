@@ -101,7 +101,7 @@ Ok, you have already read how a part of the communication system can be modeled 
  
  **QPSK** with **pi/4** phase rotation: apply [pskmod](https://www.mathworks.com/help/comm/ref/pskmod.html) and [pskdemod](https://www.mathworks.com/help/comm/ref/pskdemod.html) MatLab functions.
 
-> Note: However, you should remember that sometimes written by hand MATLAB code can be even faster than built-in functions and objects (see an [example](https://www.mathworks.com/matlabcentral/fileexchange/72860-fast-qpsk-implementation?s_tid=prof_contriblnk))! 
+> Note: However, you should remember that sometimes written by hand MATLAB code can be even faster than built-in functions and objects (see an [example](https://github.com/kirlf/csp-modeling/blob/master/scripts/fast_qpsk.m))! 
 
 - **Channel**:
 
