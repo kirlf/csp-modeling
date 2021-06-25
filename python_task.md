@@ -136,3 +136,80 @@ Good luck!
 
 - Download [Anaconda](https://www.anaconda.com/) to work with Jupyter notebooks. 
 - Or use online solutions (e.g. https://jupyter.org/try), but remember that they can interrupt the session (save your results periodically). 
+
+
+## Possible solution
+
+```python
+
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+
+class FitPoisson:
+
+    def __init__(self):
+        self.lambd = None
+
+    def __MSE(self, a, b):
+        mse = (1/len(a))*(sum((a-b)**2)) return mse
+
+    def __poisson(self, lambd, k):
+        f = [lambd**ki*np.exp(-lambd) / math.factorial(ki) for ki in k] return np.array(f)
+
+    def fit_poisson(self, count, bins, max_lambda=100):
+        ''' 
+        inputs:
+            
+            count (array):
+              values of the histogram bins that should be approximated
+            bins (array):
+              edges of the histogram bins that should be approximated
+            max_lambda (int):
+                maximum value of the lambda for searching
+        
+        outputs:
+            
+            lambda_opt (int):
+                optimal lambda 
+            f_norm (array):
+                normalized distribution with optimal lambda
+            k (array):
+                the array of the k's
+        '''
+
+        lambdas = [lmbd for lmbd in range(1, max_lambda)] # range of lambdas # Select non-zero values of bins:
+        non_zero_count = count[np.nonzero(count)]
+
+        start = int(np.min(bins)) # the first edge of bins
+        stop = len(non_zero_count) + start # the last required edge of bins 
+        
+        k = np.array([i for i in range(start, stop)], dtype=float)
+
+        e = [] #list for errors 
+        for lambd in lambdas:
+            f = self.__poisson(lambd, k)
+            f_norm = f*np.max(non_zero_count)/np.max(f) 
+            mse = self.__MSE(f_norm, non_zero_count) 
+            e.append(mse)
+        
+        lambda_opt = lambdas[np.argmin(e)] # optimal lambda 
+        f_opt = self.__poisson(lambda_opt, k)
+        f_norm = f_opt*np.max(non_zero_count)/np.max(f_opt) 
+        
+        return lambda_opt, f_norm, k
+            
+
+p_mean = 30
+a = np.random.poisson(p_mean, size=100000) # generate the random process with Poisson distribution count, bins, ignored = plt.hist(a, bins='fd', density=1)
+
+plt.show()
+
+lambd, f, k = FitPoisson().fit_poisson(count, bins)
+
+print('Mean: '+str(lambd))
+count, bins, ignored = plt.hist(a, bins='fd', density=1) plt.plot(k, f)
+
+plt.hist(a, bins='fd', density=1)
+plt.show()
+```
