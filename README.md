@@ -10,10 +10,9 @@
 - [Task 2](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-2-write-and-learn-matlab): Write and learn (MatLab) - Communication system modeling
 - [Task 3](https://github.com/kirlf/csp-modeling/blob/master/python_task.md): Write and learn (Python, NumPy) - Poisson process approximation.
 
-### Additional materials
+### Students projects
 
-- [Huffman codes (Python 3)](https://gist.github.com/kirlf/2eb242f225f9bfed4ecbfc8e1e2f5f71)
-- [LDPC codes tutorial (Jupyter)](https://nbviewer.jupyter.org/github/kirlf/csp-modeling/blob/master/ldpc.ipynb)
+- [LDPC codes decocoder in C++](https://github.com/kirlf/csp-modeling/blob/master/ldpc/cpp/spa.cpp) (based on [LDPC codes tutorial (Jupyter)](https://nbviewer.jupyter.org/github/kirlf/csp-modeling/blob/master/ldpc.ipynb))
 
 ### Suggested literature
 
