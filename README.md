@@ -5,13 +5,9 @@
 #### Kazan, 2020
 
 
-### Summary
-- [Task 1](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-1-read-and-learn-matlab-numpy): Read and learn (MATLAB, NumPy) - OFDM frame generator
-- [Task 2](https://github.com/kirlf/csp-modeling/blob/master/matlab_task.md#task-2-write-and-learn-matlab): Write and learn (MatLab) - Communication system modeling
+### Student projects
 
-### Students projects
-
-- [LDPC codes decocoder in C++](https://github.com/kirlf/csp-modeling/blob/master/ldpc/cpp/spa.cpp) (based on [LDPC codes tutorial (Jupyter)](https://nbviewer.org/github/kirlf/csp-modeling/blob/master/ldpc/ldpc.ipynb))
+- [LDPC codes decocoder in C++](https://github.com/kirlf/csp-modeling/blob/master/ldpc/cpp/spa.cpp) by [AInur Ziganshin](https://github.com/AinurZiga) (based on [LDPC codes tutorial (Jupyter)](https://nbviewer.org/github/kirlf/csp-modeling/blob/master/ldpc/ldpc.ipynb))
 - [Poisson process approximation](https://github.com/kirlf/csp-modeling/blob/master/deprecated/python_task_2020.md)
 
 ### Suggested literature
