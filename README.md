@@ -11,7 +11,7 @@
 
 ### Students projects
 
-- [LDPC codes decocoder in C++](https://github.com/kirlf/csp-modeling/blob/master/ldpc/cpp/spa.cpp) (based on [LDPC codes tutorial (Jupyter)](https://nbviewer.jupyter.org/github/kirlf/csp-modeling/blob/master/ldpc.ipynb))
+- [LDPC codes decocoder in C++](https://github.com/kirlf/csp-modeling/blob/master/ldpc/cpp/spa.cpp) (based on [LDPC codes tutorial (Jupyter)](https://nbviewer.org/github/kirlf/csp-modeling/blob/master/ldpc/ldpc.ipynb))
 - [Poisson process approximation](https://github.com/kirlf/csp-modeling/blob/master/deprecated/python_task_2020.md)
 
 ### Suggested literature
