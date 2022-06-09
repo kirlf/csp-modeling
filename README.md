@@ -9,6 +9,8 @@
 
 - [LDPC codes decocoder in C++](https://github.com/kirlf/csp-modeling/blob/master/ldpc/cpp/spa.cpp) by [AInur Ziganshin](https://github.com/AinurZiga) (based on [LDPC codes tutorial (Jupyter)](https://nbviewer.org/github/kirlf/csp-modeling/blob/master/ldpc/ldpc.ipynb))
 - [Poisson process approximation](https://github.com/kirlf/csp-modeling/blob/master/deprecated/python_task_2020.md) (winter 2020)
+- [Rayleight and Rician channel modelling (Python)](https://github.com/kirlf/csp-modeling/blob/master/channel_modelling.ipynb) by [Cherniavskiy Dmitriy](https://github.com/ChernD)
+- [Mobile network KPI clustering (Python)](https://github.com/kirlf/csp-modeling/blob/master/data_analysis.ipynb) by [Timur Galiev](https://github.com/timurgaliev27)
 
 ### Suggested literature
 
